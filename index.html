@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- VIDEO BACKGROUND -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="istockphoto-150447375-640_adpp_is.mp4" type="video/mp4">
+        Sizning brauzeringiz videoni qo‘llab-quvvatlamaydi.
+    </video>
+    <div class="container">
+        <h1>Ob-havo malumoti</h1>
+        <input type="text" id="city" placeholder="Shaxar nomini kiriting">
+        <button onclick="getWeather()">Ma'lumotlar olish</button>
+        <div class="wrapper" id="weatherWrapper"></div>
+        <div class="weatherResult"></div>
+
+        <div class="wrapper"><video src="istockphoto-150447375-640_adpp_is.mp4"></video></div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
